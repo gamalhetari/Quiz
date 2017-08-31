@@ -1,0 +1,8 @@
+<%= simple_form_for @game do |f| %>
+  <%= f.input :name %>
+  <%= f.input :description %>
+  <br />
+  <%= f.submit "Create" %>
+<% end %>
+
+<%= link_to 'Home', root_path %>
